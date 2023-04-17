@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Art-Ificial Eye</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Exo">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Orbitron">
+  </head>
+  <body>
+    <h1>Art-Ificial Eye</h1>
+    <h2>Is this an artwork or an artificialwork?</h2>
+    <main id="main">
+        <img id="artwork" src="" alt="Artwork">
+        <div class="grid">
+            <button id="art" value="0">This is Art!</button> 
+            <button id="artificial" value="1">This is Art-Ificial!</button> 
+         </div>
+    </main>
+
+    <!-- The ArtArtModal -->
+    <div id="ArtArt" class="modal">
+    <!-- Modal content -->
+    <div class="modal-content">
+      <div class="modal-header">
+        <span class="close">&times;</span>
+        <h2>&#128064; <br> You have Art-Ificial Eye! </h2>
+      </div>
+      <div class="modal-body">
+        <p>Yes, this is a human's work of art.</p>
+        <p>Congratulations, you can tell bots from humans!</p>
+      </div>
+      <div class="modal-footer">
+        <h3>This image was sourced from WikiArt.</h3> 
+      </div>
+    </div>
+    </div>
+
+      <!-- The ArtBotModal -->
+      <div id="ArtBot" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+          <div class="modal-header">
+            <span class="close">&times;</span>
+            <h2>&#128532; <br> You do not have Art-Ificial Eye. </h2>
+          </div>
+          <div class="modal-body">
+            <p>This is a human's work of art.</p>
+            <p>Unfortunately, you cannot tell bots from humans.</p>
+          </div>
+          <div class="modal-footer">
+            <h3>This image was sourced from WikiArt.</h3> 
+          </div>
+        </div>
+        </div>
+    
+          <!-- The BotArtModal -->
+          <div id="BotArt" class="modal">
+            <!-- Modal content -->
+            <div class="modal-content">
+              <div class="modal-header">
+                <span class="close">&times;</span>
+                <h2>&#128532; <br> You do not have Art-Ificial Eye.</h2>
+              </div>
+              <div class="modal-body">
+                <p>This is a bot's work of art.</p>
+                <p>Unfortunately, you cannot tell bots from humans.</p>
+              </div>
+              <div class="modal-footer">
+                <h3>This image was generated through Dall-E.</h3>
+              </div>
+            </div>
+            </div>
+
+        <!-- The BotBotModal -->
+        <div id="BotBot" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+            <div class="modal-header">
+            <span class="close">&times;</span>
+            <h2>&#128064; <br> You have Art-Ificial Eye!</h2>
+            </div>
+            <div class="modal-body">
+            <p>Yes, this is a bot's work of art.</p>
+            <p>Congratulations, you can tell bots from humans.</p>
+            </div>
+            <div class="modal-footer">
+            <h3>This image was generated through Dall-E.</h3> 
+            </div>
+        </div>
+        </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

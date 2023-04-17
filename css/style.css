@@ -1,0 +1,162 @@
+.grid {
+    display: grid;
+    grid-template-columns: 45% 45%;
+    grid-gap: 10%;
+    align-items: center;
+    justify-items: center;
+}
+button{
+    margin: 20px;
+    width: 100%;
+    display: inline;
+    font-family: "Exo","Merriweather", "Anton", "Times New Roman", "Arial";
+    font-size: 24px;
+    padding: 15px 32px;
+    border-radius: 25px;
+    border: solid #AEE4ED 2.5px;
+    background-color: black;
+    color: #AEE4ED;
+}
+
+h1{
+    /*Set font and font size*/
+     font-family: "Audiowide", "Merriweather", "Anton", "Times New Roman", "Arial";
+     font-size: 100px;
+     text-align: center;
+     color: #AEE4ED;
+     margin: 0;
+ }
+
+h2 {
+    font-family: "Exo", "Merriweather", "Anton", "Times New Roman", "Arial";
+    font-size: 32px;
+    text-align: center;
+    color: #73A5C6;
+}
+
+
+body {
+    background-color: black;
+    background-image: url('../images/dark-gradient.jpg');
+    min-height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+/* Image */
+img {
+    max-width: 100%;
+    width: auto;
+    height: 380px;
+    border: #000 solid 35px;
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 200px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+  }
+  
+  /* Add Animation */
+  @-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+  }
+  
+  @keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+  }
+  
+  /* The Close Button */
+  .close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  #BotBot .modal-header, #ArtArt .modal-header  {
+    padding: 2px 16px;
+    background-color: #000;
+    background-image: url('../images/vecteezy_abstract-green-purple-gradient-color-background-vector_5528464.jpg');
+    color: white;
+  }
+  
+  .modal-header h2 {
+    font-family: "Exo", "Merriweather", "Anton", "Times New Roman", "Arial";
+    font-size: 32px;
+    text-align: center;
+    color: white;
+}
+
+  .modal-body {
+    padding: 2px 16px;
+    text-align: center;
+    font-family: 'Exo';
+}
+  
+#BotBot .modal-footer, #ArtArt .modal-footer  {
+    padding: 2px 16px;
+    background-color:#000;
+    background-image: url('../images/vecteezy_abstract-green-purple-gradient-color-background-vector_5528464.jpg');
+    color: white;
+    text-align: center;
+    font-family: 'Exo';
+  }
+
+  #BotArt .modal-header, #ArtBot .modal-header  {
+    padding: 2px 16px;
+    background-color: #000;
+    background-image: url('../images/darker_red.png');
+    color: white;
+  }
+  
+  #BotArt .modal-footer, #ArtBot .modal-footer  {
+    padding: 2px 16px;
+    background-color:#000;
+    background-image: url('../images/darker_red.png');
+    color: white;
+    text-align: center;
+    font-family: 'Exo';
+  }
+
+
+
+
