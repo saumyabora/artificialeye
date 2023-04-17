@@ -53,13 +53,13 @@ fetch(apiUrl)
 
 //Generate with DallE!!!!!!!
 function generateDalle() {
-    const apiKey = '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';
+    const apiKey = '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';
     const prompt = 'modernist painting';
     fetch(`https://api.openai.com/v1/images/generations`, {
     method: 'POST',
     headers: {
         'Content-Type': 'application/json',
-        'Authorization': 'Bearer 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'
+        'Authorization': 'Bearer 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'
     },
     body: JSON.stringify({
         model: 'image-alpha-001',
