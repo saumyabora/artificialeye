@@ -59,7 +59,7 @@ function generateDalle() {
     method: 'POST',
     headers: {
         'Content-Type': 'application/json',
-        'Authorization': 'Bearer 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'
+        'Authorization': 'Bearer ' + ${process.env.OPENAI_API_KEY}
     },
     body: JSON.stringify({
         model: 'image-alpha-001',
