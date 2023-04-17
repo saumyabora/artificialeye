@@ -7,7 +7,7 @@ else {
     generateDalle();
 }
 
-const OPENAI_API_KEY = import { OPENAI_API_KEY } from 'config.js'
+
 
 ////Generate with WikwiArt!!!!!!!
 
